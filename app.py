@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import json
 from risk_engine import DEFAULT_ASSETS, DEFAULT_THREATS, compute_risk_scores, summary_plan, export_plan
 
 st.set_page_config(page_title="Risk Management Demo — Regional Health Clinic", layout="wide")
